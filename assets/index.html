@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Acessibilidade Digital</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Acessibilidade Digital</div>
+    <div class="engrenagem-container">
+      <button id="engrenagemBtn" aria-haspopup="true" aria-expanded="false" aria-controls="submenu">
+        <img src="img/17654.png" alt="Engrenagem" class="icone-engrenagem" />
+      </button>
+      <div id="submenu" class="submenu hidden" role="menu" aria-label="Filtros de Visão">
+        <button class="sub-btn" data-tipo="normal" role="menuitem">Normal</button>
+        <button class="sub-btn" data-tipo="acromatico" role="menuitem">Acromático</button>
+        <button class="sub-btn" data-tipo="dicromatico" role="menuitem">Dicromático</button>
+        <button class="sub-btn" data-tipo="tricromatico" role="menuitem">Tricromático</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container-principal">
+      <div class="conteudo-texto">
+        <section class="conteudo">
+          <h1>Introdução</h1>
+          <p>
+            A ideia de acessibilidade digital gira em torno de garantir que qualquer pessoa, 
+            incluindo aquelas com alguma deficiência, consiga usar e aproveitar tudo que a 
+            Internet oferece: conteúdos, serviços e ferramentas.
+          </p>
+        </section>
+
+        <section class="sitatt">
+          <h1>Como Está a Acessibilidade Hoje na Internet</h1>
+          <p>
+            Mesmo com as leis e tecnologias que ajudam, a acessibilidade digital ainda não é boa.
+          </p>
+        </section>
+
+        <section class="exemplos">
+          <h1>As deficiências que mais atrapalham o uso da Internet são:</h1>
+          <ul>
+            <li><strong>Visuais:</strong> cegueira, visão baixa ou daltonismo.</li>
+            <li><strong>Auditivas:</strong> surdez ou dificuldade para ouvir.</li>
+            <li><strong>Motoras:</strong> dificuldade para se movimentar ou falta de coordenação.</li>
+            <li><strong>Cognitivas:</strong> dislexia, falta de atenção e outras.</li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="imagem-lateral">
+        <img src="img/beautiful-natural-image-1844362_1280.jpg" alt="Imagem ilustrativa" />
+      </div>
+    </div>
+
+        <section class="ref">
+      <h1>Acessibilidades nos jogos</h1>
+      <p>
+        Acessibilidade em Jogos Digitais
+        Jogos como meio de lazer e socialização.
+        Desafios enfrentados por jogadores com deficiência (visual, motora ou auditiva).
+        Falta de personalização de controles, ausência de legendas ou descrições visuais.
+        Iniciativas positivas: jogos acessíveis (por exemplo, "The Last of Us Part II" com ampla personalização de acessibilidade).
+
+      </p>
+    </section>
+  </main>
+
+    <section class="ref">
+      <h1>Referências</h1>
+      <p>
+        Brasil. Lei nº 13.146, de 6 de julho de 2015. Estatuto da Pessoa com Deficiência.<br>
+        BRASIL. Marco Civil da Internet – Lei nº 12.965, de 23 de abril de 2014.<br>
+        LIMA, Cláudia Werneck. “Ninguém mais vai ser bonzinho – na sociedade inclusiva, diferença é direito”. 4ª ed. Rio de Janeiro: WVA, 2019.<br>
+        SILVA, José Antônio. Acessibilidade digital no Brasil: desafios e possibilidades. Revista Inclusão Digital, v. 10, n. 2, 2023.
+      </p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
